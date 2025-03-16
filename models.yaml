@@ -1,0 +1,9 @@
+models:
+  - name: "secretary"
+    backend: "llama"
+    path: "/models/ELYZA-japanese-Llama-2-7b-instruct-q5_k_m.gguf"
+    parameters:
+      n_threads: 6
+      n_predict: 512
+      stopwords: ["</s>"]
+    context_size: 4096
